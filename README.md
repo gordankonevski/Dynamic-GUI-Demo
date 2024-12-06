@@ -1,4 +1,5 @@
-# Dynamic GUI Prototype with Editable Fields and Resizable/Movable Components
+# Dynamic GUI Prototype
+## With Editable Fields and Resizable/Movable Components
 
 This project is a **React-based dynamic graphical user interface (GUI) prototype** designed to simulate product display and customization. The prototype provides an interactive canvas for dynamically editing, resizing, and moving UI elements such as product fields, images, and buttons. Users can toggle between **Edit Mode** and **Display Mode**, providing flexibility for both designing and viewing the UI.
 
