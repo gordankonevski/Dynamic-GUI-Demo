@@ -1,0 +1,162 @@
+/* General Body Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #F1F1F1;
+    color: #333;
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #2C3E50; /* Deep navy */
+    padding: 15px 30px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+    .nav-links a {
+        color: #ECF0F1;
+        font-size: 16px;
+        font-weight: 600;
+        text-decoration: none;
+        padding: 10px;
+        margin-right: 20px;
+        transition: color 0.3s ease, transform 0.3s ease;
+    }
+
+        .nav-links a:hover {
+            color: #F39C12; /* Soft gold color */
+            transform: translateY(-3px);
+        }
+
+        .nav-links a.active {
+            color: #F39C12;
+            font-weight: 700;
+            border-bottom: 2px solid #F39C12;
+        }
+
+/* General Product/Container Styles */
+.rnd {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 15px;
+    min-width: 300px;
+}
+
+/* Button Styling */
+button {
+    background-color: #F39C12;
+    color: #FFF;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+    button:hover {
+        background-color: #e67e22;
+        transform: translateY(-2px);
+    }
+
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    text-align: left;
+    padding: 12px;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #ECF0F1;
+    font-weight: 600;
+    color: #2C3E50;
+}
+
+td {
+    background-color: #FFF;
+}
+
+input[type="number"] {
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    width: 80px;
+}
+
+    input[type="number"]:focus {
+        border-color: #F39C12;
+    }
+
+/* Font and Text Styling */
+h1, h2, h3 {
+    font-family: 'Segoe UI', sans-serif;
+    font-weight: 600;
+    color: #2C3E50;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+}
+
+button, .nav-links a {
+    cursor: pointer;
+}
+
+/* Image Styles */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+    img.profile-avatar {
+        border-radius: 50%;
+        width: 80px;
+        height: 80px;
+        border: 3px solid #F39C12;
+    }
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .nav-links {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar {
+        padding: 10px 20px;
+    }
+
+    .rnd {
+        width: 90%;
+        margin: 10px auto;
+    }
+}
