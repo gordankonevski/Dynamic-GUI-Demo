@@ -1,42 +1,57 @@
-# Dynamic GUI Prototype
-## With Editable Fields and Resizable/Movable Components
+# Dynamic GUI Prototype with Editable Fields and Resizable/Movable Components
 
-This project is a **React-based dynamic graphical user interface (GUI) prototype** designed to simulate product display and customization. The prototype provides an interactive canvas for dynamically editing, resizing, and moving UI elements such as product fields, images, and buttons. Users can toggle between **Edit Mode** and **Display Mode**, providing flexibility for both designing and viewing the UI.
+This project is an **interactive React-based dynamic GUI prototype** designed to showcase customizable product displays. It demonstrates expertise in creating responsive, modular, and user-friendly interfaces with fully interactive features. The prototype allows users to dynamically edit, resize, and reposition UI elements, simulating real-world product customization workflows.
 
-## Features
+## Key Features
 
-### 1. **Editable Product Fields**
-- Users can click on product fields (e.g., name, price, quantity, description) to edit their content directly.
-- Supports different input types such as text and numbers.
-- Font styles for individual fields can be dynamically customized.
+### 1. **Editable Product Details**
+- Clickable and editable fields for product attributes like name, price, quantity, and description.
+- Intuitive inline editing with type-specific inputs (e.g., text for names, numbers for quantities).
+- Dynamic font customization for each field, showcasing flexibility and attention to detail.
 
-### 2. **Resizable and Movable Components**
-- Core UI elements, including product fields, images, and buttons, are implemented using the `react-rnd` library.
-- Users can resize and move components freely in **Edit Mode**, providing a customizable layout.
+### 2. **Resizable and Movable UI Elements**
+- All elements, including images and buttons, are implemented using the `react-rnd` library, allowing:
+  - Dragging and repositioning elements freely.
+  - Resizing components to suit different layouts and screen sizes.
 
-### 3. **Interactive Modes**
-- **Edit Mode**: Enables resizing, dragging, and field editing with visual indicators (e.g., dashed borders).
-- **Display Mode**: Locks the layout for a clean, final presentation.
+### 3. **Dual Interaction Modes**
+- **Edit Mode**: Enables field editing, component resizing, and drag-and-drop positioning.
+- **Display Mode**: Locks the layout and presents a polished, finalized UI for viewing.
 
-### 4. **Profile Image**
-- A draggable and resizable profile image is positioned outside the product container.
-- Always remains on top of other elements for easy customization.
+### 4. **Profile Image Integration**
+- A draggable and resizable profile image, placed outside the product container.
+- Demonstrates layered positioning and interaction across components.
 
 ### 5. **Inventory Management**
-- Users can add products to an inventory with the "Add to Inventory" button in **Edit Mode**.
-- The inventory context handles product details dynamically.
+- "Add to Inventory" functionality allows dynamic saving of product details.
+- Built using React Context API to efficiently manage and share application state.
 
-### 6. **Customizable Layout**
-- Position and size of all elements are stored in the component state, allowing full control over their placement.
+### 6. **Clean, Modern Design**
+- Responsive layout with focus on usability and clean aesthetics.
+- Highlights adaptability and design skills for creating intuitive user experiences.
 
 ## Live Demo
-You can view and interact with the project live at:  
+Explore the project live:  
 [Dynamic GUI Prototype](https://konevski-projectsubmission.netlify.app/)
 
-## Technologies Used
-- **React.js**: The foundation of the dynamic UI.
-- **React-RND**: For draggable and resizable components.
-- **React Context API**: For managing inventory and shared state across components.
-- **CSS-in-JS**: Inline styles for responsive and dynamic UI design.
-- **Node.js**
+## Technologies Demonstrated
+- **React.js**: Core framework for building the interactive UI.
+- **React-RND**: Library for drag-and-drop and resizable components.
+- **React Context API**: Efficient state management for shared application data.
+- **CSS-in-JS**: Inline styling for dynamic and adaptable UI design.
 
+## How to Use
+1. Launch the live demo linked above.
+2. Toggle between **Edit Mode** and **Display Mode** using the button at the top.
+3. In **Edit Mode**:
+   - Click on any product field to edit its content directly.
+   - Drag or resize images, text fields, and buttons to customize the layout.
+4. Save product details to inventory using the "Add to Inventory" button.
+
+## Project Structure
+src/ ├── components/ │ ├── Home.js # Main component for the dynamic GUI │ ├── Inventory.js # Inventory display and management ├── context/ │ ├── InventoryContext.js # Context for managing inventory state ├── images/ │ ├── product-image.png # Default product image │ ├── profile-image.png # Profile image for the UI ├── App.js # Entry point for the application ├── index.js # React DOM rendering
+
+
+---
+
+This project reflects a strong ability to develop dynamic, user-friendly interfaces with modern web development practices, showcasing a keen eye for design and attention to detail. If you have any questions or would like to discuss the project further, feel free to reach out!
