@@ -48,11 +48,3 @@ Explore the project live:
    - Click on any product field to edit its content directly.
    - Drag or resize images, text fields, and buttons to customize the layout.
 4. Save product details to inventory using the "Add to Inventory" button.
-
-## Project Structure
-src/ ├── components/ │ ├── Home.js # Main component for the dynamic GUI │ ├── Inventory.js # Inventory display and management ├── context/ │ ├── InventoryContext.js # Context for managing inventory state ├── images/ │ ├── product-image.png # Default product image │ ├── profile-image.png # Profile image for the UI ├── App.js # Entry point for the application ├── index.js # React DOM rendering
-
-
----
-
-This project reflects a strong ability to develop dynamic, user-friendly interfaces with modern web development practices, showcasing a keen eye for design and attention to detail. If you have any questions or would like to discuss the project further, feel free to reach out!
